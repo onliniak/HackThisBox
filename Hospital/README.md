@@ -31,3 +31,5 @@ Niech no zgadnę ... muszę wyciągnąć hasła z kpasswd5 czymkolwiek jest i pr
 ---
 
 https://10.10.11.241/ pokazuje Hospital Webmail. Z designu wygląda mi na RoundMail czy jak mu tam było.
+
+Copyright (C) The Roundcube Dev Team -> czyli miałem rację. Nie widzę wersji.
