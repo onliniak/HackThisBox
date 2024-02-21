@@ -53,3 +53,14 @@ Z HTTP mam jeszcze HTTP Proxy i HTTP RPC Epmap. Sprawdzam proxy.
 SSL_ERROR_RX_RECORD_TOO_LONG
 
 http://hospital.htb:8080/login.php pokazuje stronę logowania do czegoś.
+
+```
+$ whatweb hospital.htb:8080
+ERROR Opening: http://hospital.htb:8080 - Net::ReadTimeout
+
+$ whatweb hospital.htb:8080
+http://hospital.htb:8080 [302 Found] Apache[2.4.55], Cookies[PHPSESSID], Country[RESERVED][ZZ], HTTPServer[Ubuntu Linux][Apache/2.4.55 (Ubuntu)], IP[10.10.11.241], RedirectLocation[login.php]
+http://hospital.htb:8080/login.php [200 OK] Apache[2.4.55], Bootstrap, Cookies[PHPSESSID], Country[RESERVED][ZZ], HTML5, HTTPServer[Ubuntu Linux][Apache/2.4.55 (Ubuntu)], IP[10.10.11.241], JQuery[3.2.1], PasswordField[password], Script, Title[Login]
+```
+
+http://hospital.htb:8080/index.php pozwala mi wysłać coś.
