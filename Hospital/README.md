@@ -103,3 +103,5 @@ ID           Response   Lines    Word       Chars       Payload
 http://hospital.htb:8080/uploads/example.jpg -> moje zdjęcie.
 
 Kiedyś już było coś takiego i tam chodziło o pliki .phar
+
+Ciekawe ... wydaje mi się, że serwer przepuszcza tylko i wyłącznie pliki o określonym rozmiarze.
