@@ -50,8 +50,6 @@ Wcześniejszych nie ma co patrzeć.
 
 Z HTTP mam jeszcze HTTP Proxy i HTTP RPC Epmap. Sprawdzam proxy. 
 
-SSL_ERROR_RX_RECORD_TOO_LONG
-
 http://hospital.htb:8080/login.php pokazuje stronę logowania do czegoś.
 
 ```
@@ -75,3 +73,26 @@ Your medical record has been successfully uploaded.
 ```
 
 Dobra, to gdzie ja to teraz wysłałem ?
+
+```
+$ wfuzz -w /usr/share/seclists/Discovery/Web-Content/combined_directories.txt --hc 404 http://hospital.htb:8080/FUZZ
+********************************************************
+* Wfuzz 3.1.0 - The Web Fuzzer                         *
+********************************************************
+
+Target: http://hospital.htb:8080/FUZZ
+Total requests: 1377715
+
+=====================================================================
+ID           Response   Lines    Word       Chars       Payload     
+=====================================================================
+
+000000015:   301        9 L      28 W       317 Ch      "css"       
+000000009:   301        9 L      28 W       316 Ch      "js"        
+000000002:   301        9 L      28 W       320 Ch      "images"    
+000000069:   301        9 L      28 W       321 Ch      "uploads"   
+000000266:   301        9 L      28 W       315 Ch      "m"         
+000000267:   301        9 L      28 W       319 Ch      "fonts"     
+000000374:   301        9 L      28 W       315 Ch      "w"         
+000000696:   301        9 L      28 W       315 Ch      "u"  
+```
