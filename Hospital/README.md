@@ -65,3 +65,13 @@ http://hospital.htb:8080/login.php [200 OK] Apache[2.4.55], Bootstrap, Cookies[P
 
 http://hospital.htb:8080/index.php pozwala mi wysłać coś. Ale wysyła się w nieskończoność ... </br>
 Zgaduję, że plik example.jpg będzie można odczytać z ich serwera.
+
+Coś się ruszyło.
+
+```
+Successful upload!
+
+Your medical record has been successfully uploaded.
+```
+
+Dobra, to gdzie ja to teraz wysłałem ?
