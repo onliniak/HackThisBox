@@ -94,5 +94,12 @@ ID           Response   Lines    Word       Chars       Payload
 000000266:   301        9 L      28 W       315 Ch      "m"         
 000000267:   301        9 L      28 W       319 Ch      "fonts"     
 000000374:   301        9 L      28 W       315 Ch      "w"         
-000000696:   301        9 L      28 W       315 Ch      "u"  
+000000696:   301        9 L      28 W       315 Ch      "u"
+000000864:   301        9 L      28 W       315 Ch      "l"         
+000001385:   301        9 L      28 W       320 Ch      "vendor"
 ```
+
+<s>http://hospital.htb:8080/upload/example.jpg not found</s>
+http://hospital.htb:8080/uploads/example.jpg -> moje zdjęcie.
+
+Kiedyś już było coś takiego i tam chodziło o pliki .phar
