@@ -45,3 +45,11 @@ https://www.exploit-db.com/exploits/40892 to samo </br>
 https://www.exploit-db.com/exploits/39245 też </br>
 
 Wcześniejszych nie ma co patrzeć.
+
+---
+
+Z HTTP mam jeszcze HTTP Proxy i HTTP RPC Epmap. Sprawdzam proxy. 
+
+SSL_ERROR_RX_RECORD_TOO_LONG
+
+http://hospital.htb:8080/login.php pokazuje stronę logowania do czegoś.
