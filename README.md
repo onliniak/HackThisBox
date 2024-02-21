@@ -39,8 +39,8 @@ https://owasp.org/www-community/Fuzzing
 
 Generalnie wordlist jest ważniejszy od programu ale zdarzyło mi się, że dirb z identyczną listą znalazł więcej katalogów od wfuzz.
 
-```wfuzz -w wordlist/general/common.txt --hc 404 http://testphp.vulnweb.com/FUZZ```
-```wfuzz -w wordlist/general/common.txt --hc 404,400,302 -u 'http://testphp.vulnweb.com/' -H "Host: FUZZ.vulnweb.com" ``` [Apache, nie wiem jak na innych serwerach]
+```wfuzz -w wordlist/general/common.txt --hc 404,403 http://testphp.vulnweb.com/FUZZ```
+```wfuzz -w wordlist/general/common.txt --hc 404,403,400,302 -u 'http://testphp.vulnweb.com/' -H "Host: FUZZ.vulnweb.com" ``` [Apache, nie wiem jak na innych serwerach]
 
 #### Słowolisty
 
