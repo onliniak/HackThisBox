@@ -53,6 +53,8 @@ Generalnie wordlist jest ważniejszy od programu ale zdarzyło mi się, że dirb
 
 ## Foothold
 
+```https://explainshell.com/explain?cmd=nc+-v+-n+-l+-p+1234```
+
 Nie wiem jak w Windowsie ale na Linuksie zawsze były 3 błędy:
 
 - SuDo
