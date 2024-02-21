@@ -39,3 +39,9 @@ wfuzz pokazuje same 403.
 $ whatweb https://10.10.11.241/
 https://10.10.11.241/ [200 OK] Apache[2.4.56], Bootstrap, Content-Language[en], Cookies[roundcube_sessid], Country[RESERVED][ZZ], HTML5, HTTPServer[Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.0.28], HttpOnly[roundcube_sessid], IP[10.10.11.241], JQuery, OpenSSL[1.1.1t], PHP[8.0.28], PasswordField[_pass], RoundCube, Script, Title[Hospital Webmail :: Welcome to Hospital Webmail], UncommonHeaders[x-robots-tag], X-Frame-Options[sameorigin], X-Powered-By[PHP/8.0.28]
 ```
+
+https://www.exploit-db.com/exploits/49510 wymaga posiadania konta na serwerze </br>
+https://www.exploit-db.com/exploits/40892 to samo </br>
+https://www.exploit-db.com/exploits/39245 też </br>
+
+Wcześniejszych nie ma co patrzeć.
