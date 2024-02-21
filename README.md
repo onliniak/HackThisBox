@@ -11,6 +11,7 @@ Mówią tylko, by nie dawać gotowych rozwiązań.
 # Przypominajka
 
 ```sudo openvpn --config lab_onliniak.ovpn```
+```sudo nano /etc/hosts``` || dnsmasq
 
 Katalog:
 ```
