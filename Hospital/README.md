@@ -1,6 +1,8 @@
 W tej chwili jedyną łatwą maszyną windows jest crafty. Jestem biedny i nie mam MineCrafta. 
 Trudnych nie robię, a ze średnich spróbujmy ze szpitalem.
 
+---
+
 ```
 $ nmap -sT 10.10.11.241
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-02-21 13:16 CET
@@ -25,3 +27,7 @@ PORT     STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 7.53 seconds
 ```
 Niech no zgadnę ... muszę wyciągnąć hasła z kpasswd5 czymkolwiek jest i próbować dostać się do SSH.
+
+---
+
+https://10.10.11.241/ pokazuje Hospital Webmail. Z designu wygląda mi na RoundMail czy jak mu tam było.
