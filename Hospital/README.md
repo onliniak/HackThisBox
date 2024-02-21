@@ -63,4 +63,5 @@ http://hospital.htb:8080 [302 Found] Apache[2.4.55], Cookies[PHPSESSID], Country
 http://hospital.htb:8080/login.php [200 OK] Apache[2.4.55], Bootstrap, Cookies[PHPSESSID], Country[RESERVED][ZZ], HTML5, HTTPServer[Ubuntu Linux][Apache/2.4.55 (Ubuntu)], IP[10.10.11.241], JQuery[3.2.1], PasswordField[password], Script, Title[Login]
 ```
 
-http://hospital.htb:8080/index.php pozwala mi wysłać coś.
+http://hospital.htb:8080/index.php pozwala mi wysłać coś. Ale wysyła się w nieskończoność ... </br>
+Zgaduję, że plik example.jpg będzie można odczytać z ich serwera.
